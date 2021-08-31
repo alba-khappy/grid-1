@@ -1,0 +1,20 @@
+@import "general.scss";
+
+/*header*/
+
+.header {
+    @include line;
+}
+
+.header--container {
+    @include headerFooterContainer;
+}
+
+.header--ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 80px;
+    align-items: center;
+    justify-content: center;
+    place-items: center;
+}

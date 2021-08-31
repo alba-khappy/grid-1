@@ -1,0 +1,10 @@
+@import "general.scss";
+
+.description--container {
+    display: grid;
+    grid-template:
+     "h1 h1 h1" 208px 
+     "p1 p2 p3" 107px
+     /
+     286px 286px 286px;
+}

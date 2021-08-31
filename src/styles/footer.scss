@@ -1,0 +1,10 @@
+@import "general.scss";
+/*footer*/
+
+.footer--container {
+    @include headerFooterContainer;
+}
+
+.footer--p-align {
+    justify-self: end;
+}

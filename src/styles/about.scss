@@ -1,0 +1,30 @@
+@import "general.scss";
+
+.about--container {
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    grid-template:
+     "h1 h1 h1" 208px 
+     "p1 p2 p3" 107px
+     /
+     286px 286px 286px;
+}
+
+.about--h1 {
+    grid-area: h1;
+    text-align: center;
+    font-size: 46px;;
+}
+
+.about__p--date {
+    grid-area: p1;
+}
+
+.about__p--author {
+    grid-area: p2;
+}
+
+.about__p--photo {
+    grid-area: p3;
+}
