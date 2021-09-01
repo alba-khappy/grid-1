@@ -7,14 +7,26 @@
 }
 
 .header--container {
-    @include headerFooterContainer;
+    display: grid;
+    grid-template-columns: 145px 1fr;
+    grid-column-gap: 50px;
+    box-sizing: border-box;
+    min-height: 80px;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .header--ul {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 80px;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    place-items: center;
+    justify-content: flex-end;
 }
+
+.header--li {
+    margin-right: 30px;
+  }
+  
+.header--li:last-child {
+    margin-right: 0;
+  }

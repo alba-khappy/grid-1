@@ -1,10 +1,83 @@
 @import "general.scss";
 
-.description--container {
+.descrip--container {
     display: grid;
+    gap: 70px 50px; 
     grid-template:
-     "h1 h1 h1" 208px 
-     "p1 p2 p3" 107px
+     "i-1 i-1 i-1" auto
+     "p-1 i-2 p-2" auto
+     "p-3 i-3 i-3" auto
+     "p-3 p-4 p-4" auto
+     "i-4 i-4 i-5" auto
+     "p-5 p-5 p-6" auto
+     "p-7 i-6 i-7" auto
+     "p-7 p-8 p-9" auto 
      /
-     286px 286px 286px;
+     380px 380px 380px;
+}
+
+.descrip--i-1 {
+    grid-area: i-1;
+}
+
+.descrip--i-2 {
+    grid-area: i-2;
+}
+
+.descrip--i-3 {
+    grid-area: i-3;
+}
+
+.descrip--i-4 {
+    grid-area: i-4;
+}
+
+.descrip--i-5 {
+    grid-area: i-5;
+}
+
+.descrip--i-6 {
+    grid-area: i-6;
+}
+
+.descrip--i-7 {
+    grid-area: i-7;
+}
+
+.desrip--p1 {
+    grid-area: p-1;
+}
+
+.desrip--p2 {
+    grid-area: p-2;
+}
+
+.desrip--p3 {
+    grid-area: p-3;
+}
+
+.desrip--p4 {
+    grid-area: p-4;
+}
+
+.desrip--p5 {
+    grid-area: p-5;
+}
+
+.desrip--p6 {
+    grid-area: p-6;
+}
+
+.desrip--p7 {
+    grid-area: p-7;
+}
+
+.desrip--p8 {
+    grid-area: p-8;
+}
+.desrip--p9 {
+    grid-area: p-9;
+}
+.desrip--p10 {
+    grid-area: p-10;
 }
